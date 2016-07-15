@@ -1,5 +1,5 @@
 ---
-'9780':
+!ruby/string:Nori::StringWithAttributes '9780':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -30,7 +30,7 @@
     end: 9999999
     excl: false
   :length: 7
-'9781':
+!ruby/string:Nori::StringWithAttributes '9781':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -61,7 +61,7 @@
     end: 9999999
     excl: false
   :length: 7
-'9782':
+!ruby/string:Nori::StringWithAttributes '9782':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -102,7 +102,7 @@
     end: 9999999
     excl: false
   :length: 7
-'9783':
+!ruby/string:Nori::StringWithAttributes '9783':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -173,7 +173,7 @@
     end: 99999
     excl: false
   :length: 5
-'9784':
+!ruby/string:Nori::StringWithAttributes '9784':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -204,9 +204,19 @@
     end: 9999999
     excl: false
   :length: 7
-'9785':
+!ruby/string:Nori::StringWithAttributes '9785':
 - :range: !ruby/range
     begin: 0
+    end: 499
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 50
+    end: 99
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 1
     end: 19
     excl: false
   :length: 2
@@ -300,7 +310,7 @@
     end: 9999
     excl: false
   :length: 4
-'978600':
+!ruby/string:Nori::StringWithAttributes '978600':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -321,7 +331,7 @@
     end: 99999
     excl: false
   :length: 5
-'978601':
+!ruby/string:Nori::StringWithAttributes '978601':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -347,12 +357,47 @@
     end: 99
     excl: false
   :length: 2
-'978602':
+!ruby/string:Nori::StringWithAttributes '978602':
 - :range: !ruby/range
     begin: 0
-    end: 17
+    end: 7
     excl: false
   :length: 2
+- :range: !ruby/range
+    begin: 800
+    end: 899
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 900
+    end: 1099
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 1100
+    end: 1199
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 1200
+    end: 1399
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 14000
+    end: 14999
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 1500
+    end: 1699
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 17000
+    end: 17999
+    excl: false
+  :length: 5
 - :range: !ruby/range
     begin: 18000
     end: 18999
@@ -365,9 +410,24 @@
   :length: 5
 - :range: !ruby/range
     begin: 200
-    end: 749
+    end: 619
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 6200
+    end: 6749
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 6750
+    end: 6999
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 70000
+    end: 74999
+    excl: false
+  :length: 5
 - :range: !ruby/range
     begin: 7500
     end: 7999
@@ -383,7 +443,7 @@
     end: 99999
     excl: false
   :length: 5
-'978603':
+!ruby/string:Nori::StringWithAttributes '978603':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -409,7 +469,7 @@
     end: 99999
     excl: false
   :length: 5
-'978604':
+!ruby/string:Nori::StringWithAttributes '978604':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -430,9 +490,19 @@
     end: 9999
     excl: false
   :length: 4
-'978605':
+!ruby/string:Nori::StringWithAttributes '978605':
 - :range: !ruby/range
     begin: 1
+    end: 2
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 30
+    end: 39
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 4
     end: 9
     excl: false
   :length: 2
@@ -452,11 +522,11 @@
     excl: false
   :length: 5
 - :range: !ruby/range
-    begin: 90
-    end: 99
+    begin: 9000
+    end: 9999
     excl: false
-  :length: 2
-'978606':
+  :length: 4
+!ruby/string:Nori::StringWithAttributes '978606':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -474,15 +544,25 @@
   :length: 3
 - :range: !ruby/range
     begin: 8000
-    end: 9199
+    end: 9099
     excl: false
   :length: 4
 - :range: !ruby/range
+    begin: 910
+    end: 919
+    excl: false
+  :length: 3
+- :range: !ruby/range
     begin: 92000
-    end: 99999
+    end: 97499
     excl: false
   :length: 5
-'978607':
+- :range: !ruby/range
+    begin: 975
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '978607':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -503,7 +583,7 @@
     end: 99999
     excl: false
   :length: 5
-'978608':
+!ruby/string:Nori::StringWithAttributes '978608':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -534,7 +614,7 @@
     end: 9
     excl: false
   :length: 1
-'978609':
+!ruby/string:Nori::StringWithAttributes '978609':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -555,8 +635,8 @@
     end: 99999
     excl: false
   :length: 5
-'978611': []
-'978612':
+!ruby/string:Nori::StringWithAttributes '978611': []
+!ruby/string:Nori::StringWithAttributes '978612':
 - :range: !ruby/range
     begin: 0
     end: 29
@@ -582,8 +662,8 @@
     end: 99
     excl: false
   :length: 2
-'978613': []
-'978614':
+!ruby/string:Nori::StringWithAttributes '978613': []
+!ruby/string:Nori::StringWithAttributes '978614':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -604,7 +684,7 @@
     end: 99999
     excl: false
   :length: 5
-'978615':
+!ruby/string:Nori::StringWithAttributes '978615':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -625,7 +705,7 @@
     end: 89999
     excl: false
   :length: 5
-'978616':
+!ruby/string:Nori::StringWithAttributes '978616':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -646,7 +726,7 @@
     end: 99999
     excl: false
   :length: 5
-'978617':
+!ruby/string:Nori::StringWithAttributes '978617':
 - :range: !ruby/range
     begin: 0
     end: 49
@@ -667,7 +747,7 @@
     end: 99999
     excl: false
   :length: 5
-'978618':
+!ruby/string:Nori::StringWithAttributes '978618':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -688,7 +768,7 @@
     end: 99999
     excl: false
   :length: 5
-'978619':
+!ruby/string:Nori::StringWithAttributes '978619':
 - :range: !ruby/range
     begin: 0
     end: 14
@@ -709,8 +789,29 @@
     end: 99999
     excl: false
   :length: 5
-'978620': []
-'9787':
+!ruby/string:Nori::StringWithAttributes '978620': []
+!ruby/string:Nori::StringWithAttributes '978621':
+- :range: !ruby/range
+    begin: 0
+    end: 29
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 400
+    end: 599
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 8000
+    end: 8999
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 95000
+    end: 99999
+    excl: false
+  :length: 5
+!ruby/string:Nori::StringWithAttributes '9787':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -736,7 +837,7 @@
     end: 999999
     excl: false
   :length: 6
-'97880':
+!ruby/string:Nori::StringWithAttributes '97880':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -762,7 +863,7 @@
     end: 999999
     excl: false
   :length: 6
-'97881':
+!ruby/string:Nori::StringWithAttributes '97881':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -788,7 +889,7 @@
     end: 999999
     excl: false
   :length: 6
-'97882':
+!ruby/string:Nori::StringWithAttributes '97882':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -796,9 +897,14 @@
   :length: 2
 - :range: !ruby/range
     begin: 200
-    end: 699
+    end: 689
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 690000
+    end: 699999
+    excl: false
+  :length: 6
 - :range: !ruby/range
     begin: 7000
     end: 8999
@@ -814,7 +920,7 @@
     end: 999999
     excl: false
   :length: 6
-'97883':
+!ruby/string:Nori::StringWithAttributes '97883':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -845,7 +951,7 @@
     end: 999999
     excl: false
   :length: 6
-'97884':
+!ruby/string:Nori::StringWithAttributes '97884':
 - :range: !ruby/range
     begin: 0
     end: 13
@@ -906,7 +1012,7 @@
     end: 9999
     excl: false
   :length: 4
-'97885':
+!ruby/string:Nori::StringWithAttributes '97885':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -914,9 +1020,14 @@
   :length: 2
 - :range: !ruby/range
     begin: 200
-    end: 599
+    end: 549
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 5500
+    end: 5999
+    excl: false
+  :length: 4
 - :range: !ruby/range
     begin: 60000
     end: 69999
@@ -934,15 +1045,30 @@
   :length: 5
 - :range: !ruby/range
     begin: 900000
-    end: 979999
+    end: 924999
     excl: false
   :length: 6
+- :range: !ruby/range
+    begin: 92500
+    end: 94499
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 9450
+    end: 9599
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 96
+    end: 97
+    excl: false
+  :length: 2
 - :range: !ruby/range
     begin: 98000
     end: 99999
     excl: false
   :length: 5
-'97886':
+!ruby/string:Nori::StringWithAttributes '97886':
 - :range: !ruby/range
     begin: 0
     end: 29
@@ -968,7 +1094,7 @@
     end: 999999
     excl: false
   :length: 6
-'97887':
+!ruby/string:Nori::StringWithAttributes '97887':
 - :range: !ruby/range
     begin: 0
     end: 29
@@ -994,7 +1120,7 @@
     end: 999999
     excl: false
   :length: 6
-'97888':
+!ruby/string:Nori::StringWithAttributes '97888':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1026,11 +1152,21 @@
     excl: false
   :length: 3
 - :range: !ruby/range
+    begin: 9300
+    end: 9399
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 940000
+    end: 949999
+    excl: false
+  :length: 6
+- :range: !ruby/range
     begin: 95000
     end: 99999
     excl: false
   :length: 5
-'97889':
+!ruby/string:Nori::StringWithAttributes '97889':
 - :range: !ruby/range
     begin: 0
     end: 24
@@ -1066,7 +1202,7 @@
     end: 999
     excl: false
   :length: 3
-'97890':
+!ruby/string:Nori::StringWithAttributes '97890':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1103,21 +1239,11 @@
     excl: false
   :length: 2
 - :range: !ruby/range
-    begin: 910000
-    end: 939999
-    excl: false
-  :length: 6
-- :range: !ruby/range
     begin: 94
     end: 94
     excl: false
   :length: 2
-- :range: !ruby/range
-    begin: 950000
-    end: 999999
-    excl: false
-  :length: 6
-'97891':
+!ruby/string:Nori::StringWithAttributes '97891':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -1148,7 +1274,7 @@
     end: 999999
     excl: false
   :length: 6
-'97892':
+!ruby/string:Nori::StringWithAttributes '97892':
 - :range: !ruby/range
     begin: 0
     end: 5
@@ -1179,7 +1305,7 @@
     end: 999999
     excl: false
   :length: 6
-'97893':
+!ruby/string:Nori::StringWithAttributes '97893':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -1205,7 +1331,7 @@
     end: 999999
     excl: false
   :length: 6
-'97894':
+!ruby/string:Nori::StringWithAttributes '97894':
 - :range: !ruby/range
     begin: 0
     end: 599
@@ -1221,7 +1347,7 @@
     end: 99999
     excl: false
   :length: 5
-'978950':
+!ruby/string:Nori::StringWithAttributes '978950':
 - :range: !ruby/range
     begin: 0
     end: 49
@@ -1242,7 +1368,7 @@
     end: 99999
     excl: false
   :length: 5
-'978951':
+!ruby/string:Nori::StringWithAttributes '978951':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -1268,7 +1394,7 @@
     end: 99999
     excl: false
   :length: 5
-'978952':
+!ruby/string:Nori::StringWithAttributes '978952':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1319,7 +1445,7 @@
     end: 99999
     excl: false
   :length: 5
-'978953':
+!ruby/string:Nori::StringWithAttributes '978953':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -1355,7 +1481,7 @@
     end: 99999
     excl: false
   :length: 5
-'978954':
+!ruby/string:Nori::StringWithAttributes '978954':
 - :range: !ruby/range
     begin: 0
     end: 28
@@ -1386,7 +1512,7 @@
     end: 9999
     excl: false
   :length: 4
-'978955':
+!ruby/string:Nori::StringWithAttributes '978955':
 - :range: !ruby/range
     begin: 0
     end: 1999
@@ -1394,9 +1520,24 @@
   :length: 4
 - :range: !ruby/range
     begin: 20
-    end: 44
+    end: 38
     excl: false
   :length: 2
+- :range: !ruby/range
+    begin: 3900
+    end: 4099
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 41000
+    end: 43999
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 44000
+    end: 44999
+    excl: false
+  :length: 5
 - :range: !ruby/range
     begin: 4500
     end: 4999
@@ -1409,9 +1550,14 @@
   :length: 5
 - :range: !ruby/range
     begin: 550
-    end: 799
+    end: 749
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 7500
+    end: 7999
+    excl: false
+  :length: 4
 - :range: !ruby/range
     begin: 8000
     end: 9499
@@ -1422,7 +1568,7 @@
     end: 99999
     excl: false
   :length: 5
-'978956':
+!ruby/string:Nori::StringWithAttributes '978956':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1438,7 +1584,7 @@
     end: 9999
     excl: false
   :length: 4
-'978957':
+!ruby/string:Nori::StringWithAttributes '978957':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -1489,7 +1635,7 @@
     end: 99999
     excl: false
   :length: 5
-'978958':
+!ruby/string:Nori::StringWithAttributes '978958':
 - :range: !ruby/range
     begin: 0
     end: 56
@@ -1515,7 +1661,7 @@
     end: 99999
     excl: false
   :length: 5
-'978959':
+!ruby/string:Nori::StringWithAttributes '978959':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1536,7 +1682,7 @@
     end: 99999
     excl: false
   :length: 5
-'978960':
+!ruby/string:Nori::StringWithAttributes '978960':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1582,7 +1728,7 @@
     end: 99999
     excl: false
   :length: 5
-'978961':
+!ruby/string:Nori::StringWithAttributes '978961':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1603,7 +1749,7 @@
     end: 94999
     excl: false
   :length: 5
-'978962':
+!ruby/string:Nori::StringWithAttributes '978962':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1634,7 +1780,7 @@
     end: 999
     excl: false
   :length: 3
-'978963':
+!ruby/string:Nori::StringWithAttributes '978963':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1660,7 +1806,7 @@
     end: 9999
     excl: false
   :length: 4
-'978964':
+!ruby/string:Nori::StringWithAttributes '978964':
 - :range: !ruby/range
     begin: 0
     end: 14
@@ -1701,7 +1847,7 @@
     end: 9999
     excl: false
   :length: 4
-'978965':
+!ruby/string:Nori::StringWithAttributes '978965':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -1722,9 +1868,19 @@
     end: 99999
     excl: false
   :length: 5
-'978966':
+!ruby/string:Nori::StringWithAttributes '978966':
 - :range: !ruby/range
     begin: 0
+    end: 12
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 130
+    end: 139
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 14
     end: 14
     excl: false
   :length: 2
@@ -1740,6 +1896,16 @@
   :length: 3
 - :range: !ruby/range
     begin: 2000
+    end: 2789
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 279
+    end: 289
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 2900
     end: 2999
     excl: false
   :length: 4
@@ -1755,10 +1921,25 @@
   :length: 4
 - :range: !ruby/range
     begin: 90000
-    end: 99999
+    end: 90999
     excl: false
   :length: 5
-'978967':
+- :range: !ruby/range
+    begin: 910
+    end: 949
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 95000
+    end: 97999
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 980
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '978967':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -1774,6 +1955,11 @@
     end: 19999
     excl: false
   :length: 5
+- :range: !ruby/range
+    begin: 2000
+    end: 2499
+    excl: false
+  :length: 4
 - :range: !ruby/range
     begin: 300
     end: 499
@@ -1804,7 +1990,7 @@
     end: 99999
     excl: false
   :length: 5
-'978968':
+!ruby/string:Nori::StringWithAttributes '978968':
 - :range: !ruby/range
     begin: 1
     end: 39
@@ -1830,7 +2016,7 @@
     end: 9999
     excl: false
   :length: 4
-'978969':
+!ruby/string:Nori::StringWithAttributes '978969':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -1838,20 +2024,30 @@
   :length: 1
 - :range: !ruby/range
     begin: 20
+    end: 22
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 23000
+    end: 23999
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 24
     end: 39
     excl: false
   :length: 2
 - :range: !ruby/range
     begin: 400
-    end: 799
+    end: 749
     excl: false
   :length: 3
 - :range: !ruby/range
-    begin: 8000
+    begin: 7500
     end: 9999
     excl: false
   :length: 4
-'978970':
+!ruby/string:Nori::StringWithAttributes '978970':
 - :range: !ruby/range
     begin: 1
     end: 59
@@ -1877,7 +2073,7 @@
     end: 9999
     excl: false
   :length: 4
-'978971':
+!ruby/string:Nori::StringWithAttributes '978971':
 - :range: !ruby/range
     begin: 0
     end: 15
@@ -1900,11 +2096,6 @@
   :length: 4
 - :range: !ruby/range
     begin: 6
-    end: 9
-    excl: false
-  :length: 2
-- :range: !ruby/range
-    begin: 10
     end: 49
     excl: false
   :length: 2
@@ -1938,7 +2129,7 @@
     end: 9999
     excl: false
   :length: 4
-'978972':
+!ruby/string:Nori::StringWithAttributes '978972':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -1964,7 +2155,7 @@
     end: 99999
     excl: false
   :length: 5
-'978973':
+!ruby/string:Nori::StringWithAttributes '978973':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2010,7 +2201,7 @@
     end: 99999
     excl: false
   :length: 5
-'978974':
+!ruby/string:Nori::StringWithAttributes '978974':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -2041,7 +2232,7 @@
     end: 9999
     excl: false
   :length: 4
-'978975':
+!ruby/string:Nori::StringWithAttributes '978975':
 - :range: !ruby/range
     begin: 0
     end: 1999
@@ -2072,7 +2263,7 @@
     end: 999
     excl: false
   :length: 3
-'978976':
+!ruby/string:Nori::StringWithAttributes '978976':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -2098,7 +2289,7 @@
     end: 99999
     excl: false
   :length: 5
-'978977':
+!ruby/string:Nori::StringWithAttributes '978977':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -2116,10 +2307,20 @@
   :length: 4
 - :range: !ruby/range
     begin: 700
-    end: 999
+    end: 849
     excl: false
   :length: 3
-'978978':
+- :range: !ruby/range
+    begin: 85000
+    end: 89999
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 90
+    end: 99
+    excl: false
+  :length: 2
+!ruby/string:Nori::StringWithAttributes '978978':
 - :range: !ruby/range
     begin: 0
     end: 199
@@ -2145,7 +2346,7 @@
     end: 999
     excl: false
   :length: 3
-'978979':
+!ruby/string:Nori::StringWithAttributes '978979':
 - :range: !ruby/range
     begin: 0
     end: 99
@@ -2186,7 +2387,7 @@
     end: 99999
     excl: false
   :length: 5
-'978980':
+!ruby/string:Nori::StringWithAttributes '978980':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -2202,28 +2403,38 @@
     end: 9999
     excl: false
   :length: 4
-'978981':
+!ruby/string:Nori::StringWithAttributes '978981':
 - :range: !ruby/range
     begin: 0
-    end: 11
+    end: 16
     excl: false
   :length: 2
 - :range: !ruby/range
-    begin: 1200
-    end: 1999
+    begin: 17000
+    end: 19999
     excl: false
-  :length: 4
+  :length: 5
 - :range: !ruby/range
     begin: 200
-    end: 289
+    end: 299
     excl: false
   :length: 3
 - :range: !ruby/range
-    begin: 2900
+    begin: 3000
+    end: 3099
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 310
+    end: 399
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 4000
     end: 9999
     excl: false
   :length: 4
-'978982':
+!ruby/string:Nori::StringWithAttributes '978982':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -2249,7 +2460,7 @@
     end: 99999
     excl: false
   :length: 5
-'978983':
+!ruby/string:Nori::StringWithAttributes '978983':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -2295,7 +2506,7 @@
     end: 99999
     excl: false
   :length: 5
-'978984':
+!ruby/string:Nori::StringWithAttributes '978984':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -2316,7 +2527,7 @@
     end: 99999
     excl: false
   :length: 5
-'978985':
+!ruby/string:Nori::StringWithAttributes '978985':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -2337,7 +2548,7 @@
     end: 99999
     excl: false
   :length: 5
-'978986':
+!ruby/string:Nori::StringWithAttributes '978986':
 - :range: !ruby/range
     begin: 0
     end: 11
@@ -2358,7 +2569,7 @@
     end: 99999
     excl: false
   :length: 5
-'978987':
+!ruby/string:Nori::StringWithAttributes '978987':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -2376,9 +2587,39 @@
   :length: 5
 - :range: !ruby/range
     begin: 30
-    end: 49
+    end: 35
     excl: false
   :length: 2
+- :range: !ruby/range
+    begin: 3600
+    end: 3999
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 4000
+    end: 4199
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 42
+    end: 43
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 4400
+    end: 4499
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 45000
+    end: 48999
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 4900
+    end: 4999
+    excl: false
+  :length: 4
 - :range: !ruby/range
     begin: 500
     end: 899
@@ -2394,12 +2635,17 @@
     end: 99999
     excl: false
   :length: 5
-'978988':
+!ruby/string:Nori::StringWithAttributes '978988':
 - :range: !ruby/range
     begin: 0
-    end: 14
+    end: 11
     excl: false
   :length: 2
+- :range: !ruby/range
+    begin: 12000
+    end: 14999
+    excl: false
+  :length: 5
 - :range: !ruby/range
     begin: 15000
     end: 16999
@@ -2412,9 +2658,14 @@
   :length: 5
 - :range: !ruby/range
     begin: 200
-    end: 799
+    end: 769
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 77000
+    end: 79999
+    excl: false
+  :length: 5
 - :range: !ruby/range
     begin: 8000
     end: 9699
@@ -2425,7 +2676,7 @@
     end: 99999
     excl: false
   :length: 5
-'978989':
+!ruby/string:Nori::StringWithAttributes '978989':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -2451,7 +2702,65 @@
     end: 99999
     excl: false
   :length: 5
-'9789927':
+!ruby/string:Nori::StringWithAttributes '9789924':
+- :range: !ruby/range
+    begin: 30
+    end: 39
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 500
+    end: 649
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 9000
+    end: 9999
+    excl: false
+  :length: 4
+!ruby/string:Nori::StringWithAttributes '9789925':
+- :range: !ruby/range
+    begin: 0
+    end: 2
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 30
+    end: 54
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 550
+    end: 734
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 7350
+    end: 9999
+    excl: false
+  :length: 4
+!ruby/string:Nori::StringWithAttributes '9789926':
+- :range: !ruby/range
+    begin: 0
+    end: 1
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 20
+    end: 39
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 400
+    end: 799
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 8000
+    end: 9999
+    excl: false
+  :length: 4
+!ruby/string:Nori::StringWithAttributes '9789927':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -2467,7 +2776,7 @@
     end: 4999
     excl: false
   :length: 4
-'9789928':
+!ruby/string:Nori::StringWithAttributes '9789928':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -2483,7 +2792,7 @@
     end: 4999
     excl: false
   :length: 4
-'9789929':
+!ruby/string:Nori::StringWithAttributes '9789929':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -2504,7 +2813,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789930':
+!ruby/string:Nori::StringWithAttributes '9789930':
 - :range: !ruby/range
     begin: 0
     end: 49
@@ -2520,7 +2829,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789931':
+!ruby/string:Nori::StringWithAttributes '9789931':
 - :range: !ruby/range
     begin: 0
     end: 29
@@ -2536,7 +2845,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789932':
+!ruby/string:Nori::StringWithAttributes '9789932':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -2552,7 +2861,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789933':
+!ruby/string:Nori::StringWithAttributes '9789933':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2573,7 +2882,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789934':
+!ruby/string:Nori::StringWithAttributes '9789934':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2594,7 +2903,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789935':
+!ruby/string:Nori::StringWithAttributes '9789935':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2615,7 +2924,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789936':
+!ruby/string:Nori::StringWithAttributes '9789936':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -2636,7 +2945,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789937':
+!ruby/string:Nori::StringWithAttributes '9789937':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -2657,7 +2966,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789938':
+!ruby/string:Nori::StringWithAttributes '9789938':
 - :range: !ruby/range
     begin: 0
     end: 79
@@ -2673,7 +2982,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789939':
+!ruby/string:Nori::StringWithAttributes '9789939':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -2694,7 +3003,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789940':
+!ruby/string:Nori::StringWithAttributes '9789940':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -2715,7 +3024,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789941':
+!ruby/string:Nori::StringWithAttributes '9789941':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2736,12 +3045,17 @@
     end: 9999
     excl: false
   :length: 4
-'9789942':
+!ruby/string:Nori::StringWithAttributes '9789942':
 - :range: !ruby/range
     begin: 0
-    end: 89
+    end: 84
     excl: false
   :length: 2
+- :range: !ruby/range
+    begin: 8500
+    end: 8999
+    excl: false
+  :length: 4
 - :range: !ruby/range
     begin: 900
     end: 984
@@ -2752,7 +3066,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789943':
+!ruby/string:Nori::StringWithAttributes '9789943':
 - :range: !ruby/range
     begin: 0
     end: 29
@@ -2765,10 +3079,15 @@
   :length: 3
 - :range: !ruby/range
     begin: 4000
-    end: 9999
+    end: 9749
     excl: false
   :length: 4
-'9789944':
+- :range: !ruby/range
+    begin: 975
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '9789944':
 - :range: !ruby/range
     begin: 0
     end: 999
@@ -2804,7 +3123,7 @@
     end: 999
     excl: false
   :length: 3
-'9789945':
+!ruby/string:Nori::StringWithAttributes '9789945':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2840,7 +3159,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789946':
+!ruby/string:Nori::StringWithAttributes '9789946':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -2861,7 +3180,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789947':
+!ruby/string:Nori::StringWithAttributes '9789947':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -2877,7 +3196,7 @@
     end: 999
     excl: false
   :length: 3
-'9789948':
+!ruby/string:Nori::StringWithAttributes '9789948':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -2893,7 +3212,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789949':
+!ruby/string:Nori::StringWithAttributes '9789949':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2906,15 +3225,20 @@
   :length: 2
 - :range: !ruby/range
     begin: 400
-    end: 899
+    end: 749
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 75
+    end: 89
+    excl: false
+  :length: 2
 - :range: !ruby/range
     begin: 9000
     end: 9999
     excl: false
   :length: 4
-'9789950':
+!ruby/string:Nori::StringWithAttributes '9789950':
 - :range: !ruby/range
     begin: 0
     end: 29
@@ -2930,7 +3254,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789951':
+!ruby/string:Nori::StringWithAttributes '9789951':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -2946,7 +3270,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789952':
+!ruby/string:Nori::StringWithAttributes '9789952':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -2967,7 +3291,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789953':
+!ruby/string:Nori::StringWithAttributes '9789953':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -2993,7 +3317,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789954':
+!ruby/string:Nori::StringWithAttributes '9789954':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -3014,7 +3338,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789955':
+!ruby/string:Nori::StringWithAttributes '9789955':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -3030,7 +3354,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789956':
+!ruby/string:Nori::StringWithAttributes '9789956':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -3051,7 +3375,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789957':
+!ruby/string:Nori::StringWithAttributes '9789957':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -3059,9 +3383,14 @@
   :length: 2
 - :range: !ruby/range
     begin: 400
-    end: 699
+    end: 649
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 65
+    end: 69
+    excl: false
+  :length: 2
 - :range: !ruby/range
     begin: 70
     end: 84
@@ -3077,12 +3406,22 @@
     end: 99
     excl: false
   :length: 2
-'9789958':
+!ruby/string:Nori::StringWithAttributes '9789958':
 - :range: !ruby/range
     begin: 0
-    end: 3
+    end: 1
     excl: false
   :length: 2
+- :range: !ruby/range
+    begin: 20
+    end: 29
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 300
+    end: 399
+    excl: false
+  :length: 4
 - :range: !ruby/range
     begin: 40
     end: 89
@@ -3118,7 +3457,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789959':
+!ruby/string:Nori::StringWithAttributes '9789959':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -3136,10 +3475,20 @@
   :length: 3
 - :range: !ruby/range
     begin: 9500
-    end: 9999
+    end: 9699
     excl: false
   :length: 4
-'9789960':
+- :range: !ruby/range
+    begin: 970
+    end: 979
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 98
+    end: 99
+    excl: false
+  :length: 2
+!ruby/string:Nori::StringWithAttributes '9789960':
 - :range: !ruby/range
     begin: 0
     end: 59
@@ -3155,7 +3504,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789961':
+!ruby/string:Nori::StringWithAttributes '9789961':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -3176,7 +3525,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789962':
+!ruby/string:Nori::StringWithAttributes '9789962':
 - :range: !ruby/range
     begin: 0
     end: 54
@@ -3202,17 +3551,17 @@
     end: 9999
     excl: false
   :length: 4
-'9789963':
+!ruby/string:Nori::StringWithAttributes '9789963':
 - :range: !ruby/range
     begin: 0
     end: 1
     excl: false
   :length: 1
 - :range: !ruby/range
-    begin: 20
-    end: 24
+    begin: 2000
+    end: 2499
     excl: false
-  :length: 2
+  :length: 4
 - :range: !ruby/range
     begin: 250
     end: 279
@@ -3243,7 +3592,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789964':
+!ruby/string:Nori::StringWithAttributes '9789964':
 - :range: !ruby/range
     begin: 0
     end: 6
@@ -3259,7 +3608,7 @@
     end: 999
     excl: false
   :length: 3
-'9789965':
+!ruby/string:Nori::StringWithAttributes '9789965':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -3275,7 +3624,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789966':
+!ruby/string:Nori::StringWithAttributes '9789966':
 - :range: !ruby/range
     begin: 0
     end: 149
@@ -3306,7 +3655,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789967':
+!ruby/string:Nori::StringWithAttributes '9789967':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -3322,7 +3671,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789968':
+!ruby/string:Nori::StringWithAttributes '9789968':
 - :range: !ruby/range
     begin: 0
     end: 49
@@ -3338,7 +3687,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789970':
+!ruby/string:Nori::StringWithAttributes '9789970':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -3354,7 +3703,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789971':
+!ruby/string:Nori::StringWithAttributes '9789971':
 - :range: !ruby/range
     begin: 0
     end: 5
@@ -3375,7 +3724,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789972':
+!ruby/string:Nori::StringWithAttributes '9789972':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -3411,7 +3760,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789973':
+!ruby/string:Nori::StringWithAttributes '9789973':
 - :range: !ruby/range
     begin: 0
     end: 5
@@ -3442,7 +3791,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789974':
+!ruby/string:Nori::StringWithAttributes '9789974':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -3460,15 +3809,20 @@
   :length: 3
 - :range: !ruby/range
     begin: 7500
-    end: 9499
+    end: 9099
     excl: false
   :length: 4
+- :range: !ruby/range
+    begin: 91
+    end: 94
+    excl: false
+  :length: 2
 - :range: !ruby/range
     begin: 95
     end: 99
     excl: false
   :length: 2
-'9789975':
+!ruby/string:Nori::StringWithAttributes '9789975':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -3476,9 +3830,14 @@
   :length: 1
 - :range: !ruby/range
     begin: 100
-    end: 399
+    end: 299
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 3000
+    end: 3999
+    excl: false
+  :length: 4
 - :range: !ruby/range
     begin: 4000
     end: 4499
@@ -3499,7 +3858,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789976':
+!ruby/string:Nori::StringWithAttributes '9789976':
 - :range: !ruby/range
     begin: 0
     end: 5
@@ -3520,7 +3879,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789977':
+!ruby/string:Nori::StringWithAttributes '9789977':
 - :range: !ruby/range
     begin: 0
     end: 89
@@ -3536,7 +3895,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789978':
+!ruby/string:Nori::StringWithAttributes '9789978':
 - :range: !ruby/range
     begin: 0
     end: 29
@@ -3562,7 +3921,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789979':
+!ruby/string:Nori::StringWithAttributes '9789979':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -3593,7 +3952,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789980':
+!ruby/string:Nori::StringWithAttributes '9789980':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -3614,7 +3973,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789981':
+!ruby/string:Nori::StringWithAttributes '9789981':
 - :range: !ruby/range
     begin: 0
     end: 9
@@ -3645,7 +4004,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789982':
+!ruby/string:Nori::StringWithAttributes '9789982':
 - :range: !ruby/range
     begin: 0
     end: 79
@@ -3661,7 +4020,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789983':
+!ruby/string:Nori::StringWithAttributes '9789983':
 - :range: !ruby/range
     begin: 80
     end: 94
@@ -3677,7 +4036,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789984':
+!ruby/string:Nori::StringWithAttributes '9789984':
 - :range: !ruby/range
     begin: 0
     end: 49
@@ -3693,7 +4052,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789985':
+!ruby/string:Nori::StringWithAttributes '9789985':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -3714,7 +4073,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789986':
+!ruby/string:Nori::StringWithAttributes '9789986':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -3740,7 +4099,7 @@
     end: 99
     excl: false
   :length: 2
-'9789987':
+!ruby/string:Nori::StringWithAttributes '9789987':
 - :range: !ruby/range
     begin: 0
     end: 39
@@ -3756,7 +4115,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789988':
+!ruby/string:Nori::StringWithAttributes '9789988':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -3777,7 +4136,7 @@
     end: 9999
     excl: false
   :length: 4
-'9789989':
+!ruby/string:Nori::StringWithAttributes '9789989':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -3808,7 +4167,7 @@
     end: 9999
     excl: false
   :length: 4
-'97899901':
+!ruby/string:Nori::StringWithAttributes '97899901':
 - :range: !ruby/range
     begin: 0
     end: 49
@@ -3824,8 +4183,8 @@
     end: 99
     excl: false
   :length: 2
-'97899902': []
-'97899903':
+!ruby/string:Nori::StringWithAttributes '97899902': []
+!ruby/string:Nori::StringWithAttributes '97899903':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -3841,7 +4200,7 @@
     end: 999
     excl: false
   :length: 3
-'97899904':
+!ruby/string:Nori::StringWithAttributes '97899904':
 - :range: !ruby/range
     begin: 0
     end: 5
@@ -3857,7 +4216,7 @@
     end: 999
     excl: false
   :length: 3
-'97899905':
+!ruby/string:Nori::StringWithAttributes '97899905':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -3873,7 +4232,7 @@
     end: 999
     excl: false
   :length: 3
-'97899906':
+!ruby/string:Nori::StringWithAttributes '97899906':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -3904,7 +4263,7 @@
     end: 999
     excl: false
   :length: 3
-'97899908':
+!ruby/string:Nori::StringWithAttributes '97899908':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -3920,7 +4279,7 @@
     end: 999
     excl: false
   :length: 3
-'97899909':
+!ruby/string:Nori::StringWithAttributes '97899909':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -3936,7 +4295,7 @@
     end: 999
     excl: false
   :length: 3
-'97899910':
+!ruby/string:Nori::StringWithAttributes '97899910':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -3952,7 +4311,7 @@
     end: 999
     excl: false
   :length: 3
-'97899911':
+!ruby/string:Nori::StringWithAttributes '97899911':
 - :range: !ruby/range
     begin: 0
     end: 59
@@ -3963,7 +4322,7 @@
     end: 999
     excl: false
   :length: 3
-'97899912':
+!ruby/string:Nori::StringWithAttributes '97899912':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -3984,7 +4343,7 @@
     end: 999
     excl: false
   :length: 3
-'97899913':
+!ruby/string:Nori::StringWithAttributes '97899913':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4000,7 +4359,7 @@
     end: 604
     excl: false
   :length: 3
-'97899914':
+!ruby/string:Nori::StringWithAttributes '97899914':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4016,7 +4375,7 @@
     end: 999
     excl: false
   :length: 3
-'97899915':
+!ruby/string:Nori::StringWithAttributes '97899915':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4032,7 +4391,7 @@
     end: 999
     excl: false
   :length: 3
-'97899916':
+!ruby/string:Nori::StringWithAttributes '97899916':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4048,7 +4407,7 @@
     end: 999
     excl: false
   :length: 3
-'97899917':
+!ruby/string:Nori::StringWithAttributes '97899917':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4064,7 +4423,7 @@
     end: 999
     excl: false
   :length: 3
-'97899918':
+!ruby/string:Nori::StringWithAttributes '97899918':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -4080,7 +4439,7 @@
     end: 999
     excl: false
   :length: 3
-'97899919':
+!ruby/string:Nori::StringWithAttributes '97899919':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4097,6 +4456,16 @@
     excl: false
   :length: 2
 - :range: !ruby/range
+    begin: 70
+    end: 79
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 800
+    end: 849
+    excl: false
+  :length: 3
+- :range: !ruby/range
     begin: 850
     end: 899
     excl: false
@@ -4106,7 +4475,7 @@
     end: 999
     excl: false
   :length: 3
-'97899920':
+!ruby/string:Nori::StringWithAttributes '97899920':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4122,7 +4491,7 @@
     end: 999
     excl: false
   :length: 3
-'97899921':
+!ruby/string:Nori::StringWithAttributes '97899921':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4148,7 +4517,7 @@
     end: 99
     excl: false
   :length: 2
-'97899922':
+!ruby/string:Nori::StringWithAttributes '97899922':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -4164,7 +4533,7 @@
     end: 999
     excl: false
   :length: 3
-'97899923':
+!ruby/string:Nori::StringWithAttributes '97899923':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4180,7 +4549,7 @@
     end: 999
     excl: false
   :length: 3
-'97899924':
+!ruby/string:Nori::StringWithAttributes '97899924':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4196,7 +4565,7 @@
     end: 999
     excl: false
   :length: 3
-'97899925':
+!ruby/string:Nori::StringWithAttributes '97899925':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -4212,7 +4581,7 @@
     end: 999
     excl: false
   :length: 3
-'97899926':
+!ruby/string:Nori::StringWithAttributes '97899926':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -4225,15 +4594,20 @@
   :length: 2
 - :range: !ruby/range
     begin: 600
-    end: 899
+    end: 869
     excl: false
   :length: 3
+- :range: !ruby/range
+    begin: 87
+    end: 89
+    excl: false
+  :length: 2
 - :range: !ruby/range
     begin: 90
     end: 99
     excl: false
   :length: 2
-'97899927':
+!ruby/string:Nori::StringWithAttributes '97899927':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4249,7 +4623,7 @@
     end: 999
     excl: false
   :length: 3
-'97899928':
+!ruby/string:Nori::StringWithAttributes '97899928':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -4265,7 +4639,7 @@
     end: 999
     excl: false
   :length: 3
-'97899929':
+!ruby/string:Nori::StringWithAttributes '97899929':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4281,7 +4655,7 @@
     end: 999
     excl: false
   :length: 3
-'97899930':
+!ruby/string:Nori::StringWithAttributes '97899930':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4297,7 +4671,7 @@
     end: 999
     excl: false
   :length: 3
-'97899931':
+!ruby/string:Nori::StringWithAttributes '97899931':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4313,7 +4687,7 @@
     end: 999
     excl: false
   :length: 3
-'97899932':
+!ruby/string:Nori::StringWithAttributes '97899932':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -4339,7 +4713,7 @@
     end: 99
     excl: false
   :length: 2
-'97899933':
+!ruby/string:Nori::StringWithAttributes '97899933':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4355,7 +4729,7 @@
     end: 999
     excl: false
   :length: 3
-'97899934':
+!ruby/string:Nori::StringWithAttributes '97899934':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4371,7 +4745,7 @@
     end: 999
     excl: false
   :length: 3
-'97899935':
+!ruby/string:Nori::StringWithAttributes '97899935':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4397,7 +4771,7 @@
     end: 99
     excl: false
   :length: 2
-'97899936':
+!ruby/string:Nori::StringWithAttributes '97899936':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -4413,7 +4787,7 @@
     end: 999
     excl: false
   :length: 3
-'97899937':
+!ruby/string:Nori::StringWithAttributes '97899937':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4429,7 +4803,7 @@
     end: 999
     excl: false
   :length: 3
-'97899938':
+!ruby/string:Nori::StringWithAttributes '97899938':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4450,7 +4824,7 @@
     end: 99
     excl: false
   :length: 2
-'97899939':
+!ruby/string:Nori::StringWithAttributes '97899939':
 - :range: !ruby/range
     begin: 0
     end: 5
@@ -4466,7 +4840,7 @@
     end: 999
     excl: false
   :length: 3
-'97899940':
+!ruby/string:Nori::StringWithAttributes '97899940':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -4482,7 +4856,7 @@
     end: 999
     excl: false
   :length: 3
-'97899941':
+!ruby/string:Nori::StringWithAttributes '97899941':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4498,7 +4872,7 @@
     end: 999
     excl: false
   :length: 3
-'97899942':
+!ruby/string:Nori::StringWithAttributes '97899942':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4514,7 +4888,7 @@
     end: 999
     excl: false
   :length: 3
-'97899943':
+!ruby/string:Nori::StringWithAttributes '97899943':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4530,7 +4904,7 @@
     end: 999
     excl: false
   :length: 3
-'97899944':
+!ruby/string:Nori::StringWithAttributes '97899944':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4546,7 +4920,7 @@
     end: 999
     excl: false
   :length: 3
-'97899945':
+!ruby/string:Nori::StringWithAttributes '97899945':
 - :range: !ruby/range
     begin: 0
     end: 5
@@ -4562,7 +4936,7 @@
     end: 999
     excl: false
   :length: 3
-'97899946':
+!ruby/string:Nori::StringWithAttributes '97899946':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4578,7 +4952,7 @@
     end: 999
     excl: false
   :length: 3
-'97899947':
+!ruby/string:Nori::StringWithAttributes '97899947':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4594,7 +4968,7 @@
     end: 999
     excl: false
   :length: 3
-'97899948':
+!ruby/string:Nori::StringWithAttributes '97899948':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4610,7 +4984,7 @@
     end: 999
     excl: false
   :length: 3
-'97899949':
+!ruby/string:Nori::StringWithAttributes '97899949':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4626,7 +5000,7 @@
     end: 999
     excl: false
   :length: 3
-'97899950':
+!ruby/string:Nori::StringWithAttributes '97899950':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4642,8 +5016,8 @@
     end: 999
     excl: false
   :length: 3
-'97899951': []
-'97899952':
+!ruby/string:Nori::StringWithAttributes '97899951': []
+!ruby/string:Nori::StringWithAttributes '97899952':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4659,7 +5033,7 @@
     end: 999
     excl: false
   :length: 3
-'97899953':
+!ruby/string:Nori::StringWithAttributes '97899953':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4680,7 +5054,7 @@
     end: 99
     excl: false
   :length: 2
-'97899954':
+!ruby/string:Nori::StringWithAttributes '97899954':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4693,10 +5067,15 @@
   :length: 2
 - :range: !ruby/range
     begin: 700
-    end: 999
+    end: 879
     excl: false
   :length: 3
-'97899955':
+- :range: !ruby/range
+    begin: 88
+    end: 99
+    excl: false
+  :length: 2
+!ruby/string:Nori::StringWithAttributes '97899955':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4714,15 +5093,10 @@
   :length: 3
 - :range: !ruby/range
     begin: 80
-    end: 89
-    excl: false
-  :length: 2
-- :range: !ruby/range
-    begin: 90
     end: 99
     excl: false
   :length: 2
-'97899956':
+!ruby/string:Nori::StringWithAttributes '97899956':
 - :range: !ruby/range
     begin: 0
     end: 59
@@ -4738,7 +5112,7 @@
     end: 99
     excl: false
   :length: 2
-'97899957':
+!ruby/string:Nori::StringWithAttributes '97899957':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4754,7 +5128,7 @@
     end: 999
     excl: false
   :length: 3
-'97899958':
+!ruby/string:Nori::StringWithAttributes '97899958':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4762,15 +5136,20 @@
   :length: 1
 - :range: !ruby/range
     begin: 50
-    end: 94
+    end: 93
     excl: false
   :length: 2
+- :range: !ruby/range
+    begin: 940
+    end: 949
+    excl: false
+  :length: 3
 - :range: !ruby/range
     begin: 950
     end: 999
     excl: false
   :length: 3
-'97899959':
+!ruby/string:Nori::StringWithAttributes '97899959':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4786,7 +5165,7 @@
     end: 999
     excl: false
   :length: 3
-'97899960':
+!ruby/string:Nori::StringWithAttributes '97899960':
 - :range: !ruby/range
     begin: 0
     end: 0
@@ -4802,7 +5181,7 @@
     end: 999
     excl: false
   :length: 3
-'97899961':
+!ruby/string:Nori::StringWithAttributes '97899961':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -4818,7 +5197,7 @@
     end: 999
     excl: false
   :length: 3
-'97899962':
+!ruby/string:Nori::StringWithAttributes '97899962':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4834,7 +5213,7 @@
     end: 999
     excl: false
   :length: 3
-'97899963':
+!ruby/string:Nori::StringWithAttributes '97899963':
 - :range: !ruby/range
     begin: 0
     end: 49
@@ -4842,10 +5221,15 @@
   :length: 2
 - :range: !ruby/range
     begin: 500
-    end: 999
+    end: 919
     excl: false
   :length: 3
-'97899964':
+- :range: !ruby/range
+    begin: 92
+    end: 99
+    excl: false
+  :length: 2
+!ruby/string:Nori::StringWithAttributes '97899964':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4861,7 +5245,7 @@
     end: 999
     excl: false
   :length: 3
-'97899965':
+!ruby/string:Nori::StringWithAttributes '97899965':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -4869,15 +5253,15 @@
   :length: 1
 - :range: !ruby/range
     begin: 40
-    end: 79
+    end: 62
     excl: false
   :length: 2
 - :range: !ruby/range
-    begin: 800
+    begin: 630
     end: 999
     excl: false
   :length: 3
-'97899966':
+!ruby/string:Nori::StringWithAttributes '97899966':
 - :range: !ruby/range
     begin: 0
     end: 2
@@ -4893,7 +5277,12 @@
     end: 799
     excl: false
   :length: 3
-'97899967':
+- :range: !ruby/range
+    begin: 80
+    end: 94
+    excl: false
+  :length: 2
+!ruby/string:Nori::StringWithAttributes '97899967':
 - :range: !ruby/range
     begin: 0
     end: 1
@@ -4909,7 +5298,7 @@
     end: 899
     excl: false
   :length: 3
-'97899968':
+!ruby/string:Nori::StringWithAttributes '97899968':
 - :range: !ruby/range
     begin: 0
     end: 3
@@ -4930,7 +5319,7 @@
     end: 999
     excl: false
   :length: 3
-'97899969':
+!ruby/string:Nori::StringWithAttributes '97899969':
 - :range: !ruby/range
     begin: 0
     end: 4
@@ -4946,7 +5335,146 @@
     end: 999
     excl: false
   :length: 3
-'97910':
+!ruby/string:Nori::StringWithAttributes '97899970':
+- :range: !ruby/range
+    begin: 0
+    end: 4
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 50
+    end: 89
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 900
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899971':
+- :range: !ruby/range
+    begin: 0
+    end: 5
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 60
+    end: 84
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 850
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899972':
+- :range: !ruby/range
+    begin: 0
+    end: 4
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 50
+    end: 89
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 900
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899973':
+- :range: !ruby/range
+    begin: 0
+    end: 3
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 40
+    end: 79
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 800
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899974':
+- :range: !ruby/range
+    begin: 40
+    end: 79
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 800
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899975':
+- :range: !ruby/range
+    begin: 0
+    end: 3
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 40
+    end: 79
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 800
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899976':
+- :range: !ruby/range
+    begin: 0
+    end: 1
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 20
+    end: 59
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 600
+    end: 799
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899977':
+- :range: !ruby/range
+    begin: 0
+    end: 1
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 40
+    end: 69
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 700
+    end: 799
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97899978':
+- :range: !ruby/range
+    begin: 0
+    end: 4
+    excl: false
+  :length: 1
+- :range: !ruby/range
+    begin: 50
+    end: 79
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 800
+    end: 999
+    excl: false
+  :length: 3
+!ruby/string:Nori::StringWithAttributes '97910':
 - :range: !ruby/range
     begin: 0
     end: 19
@@ -4972,3 +5500,35 @@
     end: 999999
     excl: false
   :length: 6
+!ruby/string:Nori::StringWithAttributes '97911':
+- :range: !ruby/range
+    begin: 0
+    end: 24
+    excl: false
+  :length: 2
+- :range: !ruby/range
+    begin: 250
+    end: 549
+    excl: false
+  :length: 3
+- :range: !ruby/range
+    begin: 5500
+    end: 8499
+    excl: false
+  :length: 4
+- :range: !ruby/range
+    begin: 85000
+    end: 94999
+    excl: false
+  :length: 5
+- :range: !ruby/range
+    begin: 950000
+    end: 999999
+    excl: false
+  :length: 6
+!ruby/string:Nori::StringWithAttributes '97912':
+- :range: !ruby/range
+    begin: 200
+    end: 200
+    excl: false
+  :length: 3
